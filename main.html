@@ -1,16 +1,53 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Accessible Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+  
+    <header role="heading">
 
+        <img src="https://media.licdn.com/dms/image/D4D03AQH51TPDSapiAA/profile-displayphoto-shrink_400_400/0/1697265499534?e=1703116800&v=beta&t=zuxMYk_TmgzPo-LAOoVtISaR0IGG9sanu9Uqinnr2Po" alt="Chintu">
+
+        <h1>Chintu</h1>
+    </header>
+
+    <nav role="navigation">
+        <ul>
+            <li><a href="https://www.linkedin.com/in/chintu-jha-4085a1175/">LinkedIn</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <p>Full Stack Developer | Crafting Digital Solutions from Front-end to Back-end.</p>
+
+        <section role="list" id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Web Development</li>
+                <li>JavaScript</li>
+                <li>HTML/CSS</li>
+                <li>React</li>
+                <li>Node.js</li>
+            </ul>
+        </section>
+    </main>
+
+    <section role="list" id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <!-- List items with ARIA role "listitem" -->
+            <li>Project 1 - Description of Project 1</li>
+            <li>Project 2 - Description of Project 2</li>
+            <li>Project 3 - Description of Project 3</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>Contact: your.email@example.com</p>
+    </footer>
 </body>
-
 </html>
